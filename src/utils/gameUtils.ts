@@ -17,7 +17,7 @@ export const checkWinner = (
 export const checkHorizontal = (
   board: string[][],
   row: number,
-  col: number,
+  _col: number,
   player: string,
   size: number,
   winCondition: number
@@ -36,7 +36,7 @@ export const checkHorizontal = (
 
 export const checkVertical = (
   board: string[][],
-  row: number,
+  _row: number,
   col: number,
   player: string,
   size: number,
